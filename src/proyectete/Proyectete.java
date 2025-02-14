@@ -4,6 +4,8 @@
  */
 package proyectete;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Usuario
@@ -14,7 +16,11 @@ public class Proyectete {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola mundete!");
+        String input;
+        Scanner stdin;
+        stdin = new Scanner(System.in);
+        System.out.println("Hola mundete!\n Como estas hoy?");
+        input = stdin.nextLine();
+        System.out.println("Me vale verga jajajaj");
     }
-    
 }
