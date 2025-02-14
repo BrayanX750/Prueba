@@ -22,5 +22,19 @@ public class Proyectete {
         System.out.println("Hola mundete!\n Como estas hoy?");
         input = stdin.nextLine();
         System.out.println("Me vale verga jajajaj");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Mentira bro como te sientes?");
+        input = stdin.nextLine();
+        System.out.println("Ohh ya bro");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Tambien me vale verga Xdxd");
     }
 }
